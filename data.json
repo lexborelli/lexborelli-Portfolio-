@@ -1,0 +1,50 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "A Random Quote Generator",
+            "description": "An application that displays a variety of random famous quotes each time a button is clicked. The basic JavaScript syntax, variables, loops, conditionals, and object literals were used to complete this application.", 
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
+            "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
+            "images_url": ["/public/images/randomquotegenerator/randomquotegenerator550x550.png", "/public/images/randomquotegenerator/randomquotegenerator1200x550.png"]
+
+        },
+        {
+            "id": 2,
+            "project_name": "Data Pagination and Filtering", 
+            "description": "This application has a data file that contains information for 42 students, including name, email, and picture; each webpage displays nine students. Utilized JavaScript to  display several 'pages' of student data that the user can easily navigate through pages with a technique known as “pagination” to enhance the users usability and view. Additionally, a search bar was created to allow user to look for a specific student by name.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://lexborelli.github.io/Data-Pagination-and-Filtering-Project/",
+            "github_link": "https://github.com/lexborelli/Data-Pagination-and-Filtering-Project", 
+            "images_url": ["/public/images/datafiltering/datafiltering550x550.png", "/public/images/datafiltering/datafiltering1200x550.png"]
+
+        }, {
+            "id": 3, 
+            "project_name": "Interactive Form",
+            "description": "This application usesd JavaScript to enhance an interactive registration form for a fictional Full Stack conference by making it more user-friendly. Implemented conditional behavior, validation on user inputs, and provided error messages for invalid inputs.", 
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://lexborelli.github.io/Interactive-Form/", 
+            "github_link": "https://github.com/lexborelli/Interactive-Form", 
+            "images_url": ["public/images/interactiveform/interactiveform550x550.png", "/publc/images/interactiveform/interactiveform1200x550.png"]
+
+        }, {
+            "id": 4,
+            "project_name": "OOP Game Show App", 
+            "description": "A browser-based, word guessing game: 'Phrase Hunter' application. Utilized JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player must try to guess the phrase by selecting individual letters from an onscreen keyboard without running out of the 4 lives given at the beginning of the game.", 
+            "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"], 
+            "live_link": "https://lexborelli.github.io/Object-Oriented-Programming-Game-App/",
+            "github_link": "https://github.com/lexborelli/Object-Oriented-Programming-Game-App",
+            "images_url": ["/public/images/oopgameshowapp/oopgameshow550x550.png", "/public/images/oopgameshowapp/oopgameshow1200x550.png"]
+
+        }, {
+            "id": 5,
+            "project_name": "Awesome Startup Public API Request", 
+            "description": "This application uses JavaScript, to build a fictional employee directory by communicating with a third-party API (Application Programming Interface). The Random User Generator API (https://randomuser.me/) was used to grab information for 12 random “employees,” to build a prototype.",
+            "technologies": ["HTML", "CSS", "JavaScript", "JSON", "API"], 
+            "live_link":  "https://lexborelli.github.io/Awesome-Startup-Public-API-Request/",  
+            "github_link": "https://github.com/lexborelli/Awesome-Startup-Public-API-Request", 
+            "images_url": ["/public/images/requestapi/requestapi550x550.png", "/public/images/requestapi/requestapi1200x550.png"]
+        }
+    ]
+}
