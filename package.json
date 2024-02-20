@@ -2,14 +2,17 @@
   "name": "lexborelli-portfolio-",
   "version": "1.0.0",
   "description": "static node.js and express site",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "nodemon": "nodemon app.js"
   },
   "author": "Alexas Borelli",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
     "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
