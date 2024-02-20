@@ -16,7 +16,32 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 
-//setting the route
+//setting the route for rendering index to data.json
 app.get('/', (req, res) => {
     res.render('index', {projects});
  });
+
+ //About route to render about page 
+
+ app.get('/about', (req, res) => {
+    res.render('about');
+ });
+
+ //get individual projects through id
+ app.get('/projects/:id', (req, res, next) => {
+   const projectId = req.params.id;  
+   const project = projects.find( ({id}) => id === +projectId);
+
+    if (project){
+        res.render('project', { project });
+    } else {
+        res.send(404);
+    }
+ });
+
+ //Turn on express server
+
+ app.listen(3000, () => {
+    console.log('server listening on port 3000');
+ });
+
