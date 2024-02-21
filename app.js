@@ -44,7 +44,7 @@ app.get('/', function(req, res, next) {
     }
  });
 
- //global handler 
+ //global error handler 
  app.use((err, req, res, next) => {
     if (err) {
     console.log('Global error handler called', 'err');
