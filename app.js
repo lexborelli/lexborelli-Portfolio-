@@ -7,17 +7,17 @@ const {projects} = require('./data.json');
 
 const app = express();
 
-//setting up path module by creating a variable for path then used a static route and the express.static method to serve the static files located in the public folder
-var path = require('path'); 
-app.use('/static', express.static(path.join(__dirname, 'public')));
-
 //view engine set up to pug
-app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+
+//setting up path module by creating a variable for path then used a static route and the express.static method to serve the static files located in the public folder
+app.use('/static', express.static('public'));
+
+
 
 
 //setting the route for rendering index to data.json
-app.get('/', function(req, res, next) {
+app.get('/',(req, res, next) => {
     res.render('index', { projects });
  });
 
@@ -29,9 +29,8 @@ app.get('/', function(req, res, next) {
 
 
  //get individual projects through id
- app.get('/projects/:id', function(req, res, next) {
-   const projectId = req.params.id;  
-   const project = projects.find( ({ id }) => id === +projectId );
+ app.get('/projects/:id', function(req, res, next) { 
+   const project = projects.find( ({ id }) => id === +req.params.id );
 
     if (project) {
       //pass the projects data to project template
@@ -63,4 +62,3 @@ app.get('/', function(req, res, next) {
     console.log('server listening on port 3000');
  });
 
- module.exports = app; 
