@@ -1,6 +1,6 @@
-//seting up express
+//importing express and seting up app
 
-var express = require('express'); 
+const express = require('express'); 
 
 // require projects in data.json
 const {projects} = require('./data.json'); 
@@ -17,27 +17,45 @@ app.set('view engine', 'pug');
 
 
 //setting the route for rendering index to data.json
-app.get('/', (req, res) => {
-    res.render('index', {projects});
+app.get('/', function(req, res, next) {
+    res.render('index', { projects });
  });
 
  //About route to render about page 
 
  app.get('/about', (req, res) => {
-    res.render('about');
- });
+   res.render('about');
+});
+
 
  //get individual projects through id
- app.get('/projects/:id', (req, res, next) => {
+ app.get('/projects/:id', function(req, res, next) {
    const projectId = req.params.id;  
-   const project = projects.find( ({id}) => id === +projectId);
+   const project = projects.find( ({ id }) => id === +projectId );
 
-    if (project){
+    if (project) {
+      //pass the projects data to project template
         res.render('project', { project });
     } else {
-        res.send(404);
+        const err = new Error('err');
+        err.status = 404;
+        err.message = "It looks like the page you requested doesn't exist.";
+        next(err);
     }
  });
+
+ //global handler 
+ app.use((err, req, res, next) => {
+    if (err) {
+    console.log('Global error handler called', 'err');
+    } if (err.status === 404) {
+        res.status(404).render('not found', { err });
+    } else {
+      err.message = err.message || `something went wrong with the server.`;
+      res.status(err.status || 500).render('error', { err });
+    }
+ });
+
 
  //Turn on express server
 
@@ -45,3 +63,4 @@ app.get('/', (req, res) => {
     console.log('server listening on port 3000');
  });
 
+ module.exports = app; 

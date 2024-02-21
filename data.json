@@ -7,8 +7,8 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
             "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
-            "images_url": ["/public/images/randomquotegenerator/randomquotegenerator550x550.png", "/public/images/randomquotegenerator/randomquotegenerator1200x550.png"]
-
+            "images_url": ["/static/images/randomquotegenerator/randomquotegenerator550x550.png", "/static/images/randomquotegenerator/randomquotegenerator1200x550.png"]
+            
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://lexborelli.github.io/Data-Pagination-and-Filtering-Project/",
             "github_link": "https://github.com/lexborelli/Data-Pagination-and-Filtering-Project", 
-            "images_url": ["/public/images/datafiltering/datafiltering550x550.png", "/public/images/datafiltering/datafiltering1200x550.png"]
+            "images_url": ["/static/images/datafiltering/datafiltering550x550.png", "/static/images/datafiltering/datafiltering1200x550.png"]
 
         }, {
             "id": 3, 
@@ -26,7 +26,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://lexborelli.github.io/Interactive-Form/", 
             "github_link": "https://github.com/lexborelli/Interactive-Form", 
-            "images_url": ["public/images/interactiveform/interactiveform550x550.png", "/publc/images/interactiveform/interactiveform1200x550.png"]
+            "images_url": ["/static/images/interactiveform/interactiveform550x550.png", "/static/images/interactiveform/interactiveform1200x550.png"]
 
         }, {
             "id": 4,
@@ -35,16 +35,16 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"], 
             "live_link": "https://lexborelli.github.io/Object-Oriented-Programming-Game-App/",
             "github_link": "https://github.com/lexborelli/Object-Oriented-Programming-Game-App",
-            "images_url": ["/public/images/oopgameshowapp/oopgameshow550x550.png", "/public/images/oopgameshowapp/oopgameshow1200x550.png"]
+            "images_url": ["/static/images/oopgameshowapp/oopgameshow550x550.png", "/static/images/oopgameshowapp/oopgameshow1200x550.png"]
 
         }, {
             "id": 5,
-            "project_name": "Awesome Startup Public API Request", 
+            "project_name": "Awesome Startup static API Request", 
             "description": "This application uses JavaScript, to build a fictional employee directory by communicating with a third-party API (Application Programming Interface). The Random User Generator API (https://randomuser.me/) was used to grab information for 12 random “employees,” to build a prototype.",
             "technologies": ["HTML", "CSS", "JavaScript", "JSON", "API"], 
-            "live_link":  "https://lexborelli.github.io/Awesome-Startup-Public-API-Request/",  
-            "github_link": "https://github.com/lexborelli/Awesome-Startup-Public-API-Request", 
-            "images_url": ["/public/images/requestapi/requestapi550x550.png", "/public/images/requestapi/requestapi1200x550.png"]
+            "live_link":  "https://lexborelli.github.io/Awesome-Startup-static-API-Request/",  
+            "github_link": "https://github.com/lexborelli/Awesome-Startup-static-API-Request", 
+            "images_url": ["/static/images/requestapi/requestapi550x550.png", "/static/images/requestapi/requestapi1200x550.png"]
         }
     ]
 }
