@@ -36,18 +36,18 @@ app.get('/',(req, res, next) => {
       //pass the projects data to project template
         res.render('project', { project });
     } else {
-      const err = new Error('err');
-      err.status = 404;
-      err.message = "It looks like the page you requested doesn't exist.";
-      next(err);   
+      next();   
     }
  });
 
 
  //404 page not found, sends a response to terminal saying 404 handler has been called then sets the response status to 404 and renders the 'page-not-found' in views folder.
  app.use((req, res, next) => {
-   console.log('err.message');
-   res.status(404).render('page-not-found', { err });
+   const err = new Error("err");
+   err.status = 404;
+   err.message = "It looks like the page you requested doesn't exist."
+   console.log(err.message); 
+   next(err);
 
  })
 
