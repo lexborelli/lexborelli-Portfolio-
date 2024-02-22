@@ -4,7 +4,7 @@
   "description": "static node.js and express site",
   "main": "app.js",
   "scripts": {
-    "nodemon": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "Alexas Borelli",
   "license": "ISC",

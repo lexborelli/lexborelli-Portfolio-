@@ -30,6 +30,7 @@ app.get('/',(req, res, next) => {
 
  //get individual projects through id
  app.get('/projects/:id', function(req, res, next) { 
+   
    const project = projects.find( ({ id }) => id === +req.params.id );
 
     if (project) {

@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
             "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
-            "images_url": ["/static/images/randomquotegenerator/randomquotegenerator550x550.png", "/static/images/randomquotegenerator/randomquotegenerator1200x550.png"]
+            "images_url": ["/static/images/randomquotegenerator/randomquote550x550.png", "/static/images/randomquotegenerator/randomquotegenerator1200x550.png"]
             
         },
         {

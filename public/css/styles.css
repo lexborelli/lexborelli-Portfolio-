@@ -176,7 +176,7 @@ nav a span {
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #ffb3b1;
 }
 
 .header {
@@ -259,7 +259,7 @@ nav a span {
   width: 100%;
   min-width: 100px;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 0 1.5px rgba(232, 21, 112, 0.2);
 }
 
 
@@ -296,7 +296,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #ffb3b1;
   border: 1px solid transparent;
 }
 
