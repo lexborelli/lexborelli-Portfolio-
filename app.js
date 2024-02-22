@@ -4,16 +4,17 @@ const express = require('express');
 
 // require projects in data.json
 const {projects} = require('./data.json'); 
+const { render } = require('pug');
 
 const app = express();
+
+ 
 
 //view engine set up to pug
 app.set('view engine', 'pug');
 
 //setting up path module by creating a variable for path then used a static route and the express.static method to serve the static files located in the public folder
 app.use('/static', express.static('public'));
-
-
 
 
 //setting the route for rendering index to data.json
@@ -27,34 +28,42 @@ app.get('/',(req, res, next) => {
    res.render('about');
 });
 
-
  //get individual projects through id
  app.get('/projects/:id', function(req, res, next) { 
-   
+
    const project = projects.find( ({ id }) => id === +req.params.id );
 
     if (project) {
       //pass the projects data to project template
         res.render('project', { project });
     } else {
-        const err = new Error('err');
-        err.status = 404;
-        err.message = "It looks like the page you requested doesn't exist.";
-        next(err);
+      const err = new Error('err');
+      err.status = 404;
+      err.message = "It looks like the page you requested doesn't exist.";
+      next(err);   
     }
  });
 
+ app.use((req, res, next) => {
+   console.log('404 error handler called');
+   res.status(404).render('page-not-found', { err });
+
+ })
+
  //global error handler 
- app.use((err, req, res, next) => {
-    if (err) {
-    console.log('Global error handler called', 'err');
-    } if (err.status === 404) {
-        res.status(404).render('not found', { err });
+ app.use((err,req, res, next) => {
+
+    if (err.status === 404) {
+      res.status(404).render('page-not-found', { err });
     } else {
-      err.message = err.message || `something went wrong with the server.`;
+      res.local.error = err; 
+      err.message = err.message || `Something went wrong with the server.`;
       res.status(err.status || 500).render('error', { err });
     }
+
  });
+
+
 
 
  //Turn on express server

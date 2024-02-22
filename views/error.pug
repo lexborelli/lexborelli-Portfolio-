@@ -1,0 +1,12 @@
+extends layout 
+
+block content
+   h1= `${err.message}`
+   h2= `${err.status}`
+   pre #{err.stack}
+
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
