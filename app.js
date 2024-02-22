@@ -44,13 +44,17 @@ app.get('/',(req, res, next) => {
     }
  });
 
+
+ //404 page not found, sends a response to terminal saying 404 handler has been called then sets the response status to 404 and renders the 'page-not-found' in views folder.
  app.use((req, res, next) => {
    console.log('404 error handler called');
    res.status(404).render('page-not-found', { err });
 
  })
 
- //global error handler 
+ //global error handler handles errors caught by route handle; if status is 404 it sets status to 404 and renders the "page-not-found" folder and passes the error object to the views folder. 
+ //Else, the error message is given a message , the response status is set to 500 or given the error status. Lastly, It renders the "error" file in views folder and passes the error object. 
+ 
  app.use((err,req, res, next) => {
 
     if (err.status === 404) {
@@ -62,8 +66,6 @@ app.get('/',(req, res, next) => {
     }
 
  });
-
-
 
 
  //Turn on express server
