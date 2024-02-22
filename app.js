@@ -4,7 +4,6 @@ const express = require('express');
 
 // require projects in data.json
 const {projects} = require('./data.json'); 
-const { render } = require('pug');
 
 const app = express();
 
@@ -47,7 +46,7 @@ app.get('/',(req, res, next) => {
 
  //404 page not found, sends a response to terminal saying 404 handler has been called then sets the response status to 404 and renders the 'page-not-found' in views folder.
  app.use((req, res, next) => {
-   console.log('404 error handler called');
+   console.log('err.message');
    res.status(404).render('page-not-found', { err });
 
  })
