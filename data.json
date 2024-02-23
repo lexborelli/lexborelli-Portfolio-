@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "A Random Quote Generator",
-            "description": "An application that displays a variety of random famous quotes each time a button is clicked. The basic JavaScript syntax, variables, loops, conditionals, and object literals were used to complete this application.", 
+            "description": "Designed an application that displays variety of random famous quotes each time a button is clicked. Basic JavaScript syntax, variables, loops, conditionals, and object literals were used to construct this application.", 
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
             "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
@@ -22,7 +22,7 @@
         }, {
             "id": 3, 
             "project_name": "Interactive Form",
-            "description": "This application usesd JavaScript to enhance an interactive registration form for a fictional Full Stack conference by making it more user-friendly. Implemented conditional behavior, validation on user inputs, and provided error messages for invalid inputs.", 
+            "description": "This application used JavaScript to enhance an interactive registration form for a fictional FullStack conference by making it more user-friendly. Implemented conditional behavior, validation on user inputs, and provided error messages for invalid inputs.", 
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://lexborelli.github.io/Interactive-Form/", 
             "github_link": "https://github.com/lexborelli/Interactive-Form", 
