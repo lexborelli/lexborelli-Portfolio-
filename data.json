@@ -42,8 +42,8 @@
             "project_name": "Awesome Startup static API Request", 
             "description": "This application uses JavaScript, to build a fictional employee directory by communicating with a third-party API (Application Programming Interface). The Random User Generator API (https://randomuser.me/) was used to grab information for 12 random “employees,” to build a prototype.",
             "technologies": ["HTML", "CSS", "JavaScript", "JSON", "API"], 
-            "live_link":  "https://lexborelli.github.io/Awesome-Startup-static-API-Request/",  
-            "github_link": "https://github.com/lexborelli/Awesome-Startup-static-API-Request", 
+            "live_link":  "https://lexborelli.github.io/Awesome-Startup-Public-API-Request/",  
+            "github_link": "https://github.com/lexborelli/Awesome-Startup-Public-API-Request", 
             "images_url": ["/static/images/requestapi/requestapismall.png", "/static/images/requestapi/requestapibig.png"]
         }
     ]
