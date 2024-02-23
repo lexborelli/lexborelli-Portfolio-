@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
             "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
-            "images_url": ["/static/images/randomquotegenerator/randomquote550x550.png", "/static/images/randomquotegenerator/randomquotegenerator1200x550.png"]
+            "images_url": ["/static/images/randomquotegenerator/randomquotesmall.png", "/static/images/randomquotegenerator/randomquotebig.png"]
             
         },
         {
@@ -17,7 +17,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://lexborelli.github.io/Data-Pagination-and-Filtering-Project/",
             "github_link": "https://github.com/lexborelli/Data-Pagination-and-Filtering-Project", 
-            "images_url": ["/static/images/datafiltering/datafiltering550x550.png", "/static/images/datafiltering/datafiltering1200x550.png"]
+            "images_url": ["/static/images/datafiltering/datafilteringsmall.png", "/static/images/datafiltering/datafilteringbig.png"]
 
         }, {
             "id": 3, 
@@ -26,7 +26,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"], 
             "live_link": "https://lexborelli.github.io/Interactive-Form/", 
             "github_link": "https://github.com/lexborelli/Interactive-Form", 
-            "images_url": ["/static/images/interactiveform/interactiveform550x550.png", "/static/images/interactiveform/interactiveform1200x550.png"]
+            "images_url": ["/static/images/interactiveform/interactiveformsmall.png", "/static/images/interactiveform/interactiveformbig.png"]
 
         }, {
             "id": 4,
@@ -35,7 +35,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"], 
             "live_link": "https://lexborelli.github.io/Object-Oriented-Programming-Game-App/",
             "github_link": "https://github.com/lexborelli/Object-Oriented-Programming-Game-App",
-            "images_url": ["/static/images/oopgameshowapp/oopgameshow550x550.png", "/static/images/oopgameshowapp/oopgameshow1200x550.png"]
+            "images_url": ["/static/images/oopgameshowapp/oopgameshowsmall.png", "/static/images/oopgameshowapp/oopgameshowbig.png"]
 
         }, {
             "id": 5,
@@ -44,7 +44,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "JSON", "API"], 
             "live_link":  "https://lexborelli.github.io/Awesome-Startup-static-API-Request/",  
             "github_link": "https://github.com/lexborelli/Awesome-Startup-static-API-Request", 
-            "images_url": ["/static/images/requestapi/requestapi550x550.png", "/static/images/requestapi/requestapi1200x550.png"]
+            "images_url": ["/static/images/requestapi/requestapismall.png", "/static/images/requestapi/requestapibig.png"]
         }
     ]
 }
