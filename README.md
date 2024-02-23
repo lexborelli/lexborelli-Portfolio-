@@ -1,3 +1,7 @@
+Since site is static, used render to make site live:
+https://lexborelliportfolio.onrender.com
+
+
 This project handled the "server side" of JavaScript. Created a Portfolio site to showcase the projects I have done.
  The site contains a modern landing page, an about me page with skills, and a series of project pages. 
  
