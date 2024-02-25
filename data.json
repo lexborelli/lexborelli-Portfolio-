@@ -52,7 +52,7 @@
             "technologies": ["Python, Pandas, Replit"],
             "live_link": "https://replit.com/@gabadactyl/CFGFinalPython",
             "github_link": "https://github.com/lexborelli/spreadsheet-analysis",
-            "images_url": ["/static/images/pythonspreadsheet/pythonspeadsheetanalysissmall.png", "/static/images/pythonspreadsheet/pythonspreadsheetanalysisbig.png"]
+            "images_url": ["/static/images/pythonspreadsheet/pythonspreadsheetanalysissmall.png", "/static/images/pythonspreadsheet/pythonspreadsheetanalysisbig.png"]
         }
     ]
 }
