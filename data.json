@@ -45,6 +45,14 @@
             "live_link":  "https://lexborelli.github.io/Awesome-Startup-Public-API-Request/",  
             "github_link": "https://github.com/lexborelli/Awesome-Startup-Public-API-Request", 
             "images_url": ["/static/images/requestapi/requestapismall.png", "/static/images/requestapi/requestapibig.png"]
+        }, {
+            "id": 6, 
+            "project_name": "Python Spreadsheet Analysis",
+            "description": "This application utilized Python and Pandas to do a basic data analysis on a spreadsheet of all the sales in 2018 with a fellow learner. This analysis collected all of the sales from each month into a single list, outputed the total sales across all months, monthly changes as a percentage, the months with the highest and lowest in sales, and the average of all sales.",
+            "technologies": ["Python, Pandas, Replit"],
+            "live_link": "https://replit.com/@gabadactyl/CFGFinalPython",
+            "github_link": "https://github.com/lexborelli/spreadsheet-analysis",
+            "images_url": ["/static/images/pythonspreadsheet/pythonspeadsheetanalysissmall.png", "/static/images/pythonspreadsheet/pythonspreadsheetanalysisbig.png"]
         }
     ]
 }
