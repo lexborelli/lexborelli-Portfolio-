@@ -49,10 +49,18 @@
             "id": 6, 
             "project_name": "Python Spreadsheet Analysis",
             "description": "This application utilized Python and Pandas to do a basic data analysis on a spreadsheet of all the sales in 2018 with a fellow learner. This analysis collected all of the sales from each month into a single list, outputed the total sales across all months, monthly changes as a percentage, the months with the highest and lowest in sales, and the average of all sales.",
-            "technologies": ["Python, Pandas, Replit"],
+            "technologies": ["Python", "Pandas", "Replit"],
             "live_link": "https://replit.com/@gabadactyl/CFGFinalPython",
             "github_link": "https://github.com/lexborelli/spreadsheet-analysis",
             "images_url": ["/static/images/pythonspreadsheet/pythonspreadsheetanalysissmall.png", "/static/images/pythonspreadsheet/pythonspreadsheetanalysisbig.png"]
+        }, {
+            "id": 7, 
+            "project_name": "React Gallery App",
+            "description": "This project, uses the in-demand React library to create an image gallery app. The app is built in the style of a modern single-page application to keep it fast, modular, and in sync with current web development trends. I used JSX to write the markup-like syntax directly in my JavaScript files and managed the state in a container component that passes data down to the reusable stateless components. I implemented a browser navigation works for the search route, a 404 Error, a loading indicator, and a user friendly message to tell users if no matches were found.", 
+            "technologies": ["React","JavaScript", "JSX", "Vite", "Axios", "Fetch API", "CSS"], 
+            "github_link": "https://github.com/lexborelli/React-Gallery-App", 
+            "images_url": ["/static/images/reactgallery/reactgallerysmall.png", "/static/images/reactgallery/reactgallerybig.png"]
+
         }
     ]
 }
