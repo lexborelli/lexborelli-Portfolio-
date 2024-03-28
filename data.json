@@ -56,7 +56,7 @@
         }, {
             "id": 7, 
             "project_name": "React Gallery App",
-            "description": "This project, uses the in-demand React library to create an image gallery app. The app is built in the style of a modern single-page application to keep it fast, modular, and in sync with current web development trends. I used JSX to write the markup-like syntax directly in my JavaScript files and managed the state in a container component that passes data down to the reusable stateless components. I implemented a browser navigation works for the search route, a 404 Error, a loading indicator, and a user friendly message to tell users if no matches were found.", 
+            "description": "This Application, uses the in-demand React library in the style of a modern single-page application to keep it fast, modular, and in sync with current web development trends to create an image gallery. I used JSX to write the markup-like syntax directly in my JavaScript files and managed the state in a container component that passes data down to the reusable stateless components. I implemented a browser navigation works for the search route, a 404 Error, a loading indicator, and a user friendly message to tell users if no matches were found.", 
             "technologies": ["React","JavaScript", "JSX", "Vite", "Axios", "Fetch API", "CSS"], 
             "github_link": "https://github.com/lexborelli/React-Gallery-App", 
             "images_url": ["/static/images/reactgallery/reactgallerysmall.png", "/static/images/reactgallery/reactgallerybig.png"]
