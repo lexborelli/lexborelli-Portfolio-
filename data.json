@@ -62,6 +62,14 @@
             "github_link": "https://github.com/lexborelli/React-Gallery-App", 
             "images_url": ["/static/images/reactgallery/reactgallerysmall.png", "/static/images/reactgallery/reactgallerybig.png"]
 
+        }, {
+            "id": 8, 
+            "project_name": "SQL Library Manager",
+            "description": "This application was created for a fictional local library to help them manage their collection of books. This web application included pages to list, add, update, and delete books. I utilized sequelize-cli to create a book model with corresponding routes and pug files that were converted from html. I added the following settings to title and author properties: allowNull property to false, added sequelize validation, and appropriate error messages to ensure the values cant be empty upon submission. The book model was synced and connected to the database of SQLite. Error handling for a 404 status error and global handling error were implemented with a user-friendly message.", 
+            "technologies": ["JavaScript", "Node.js", "Express", "Pug", "SQLite", "SQL ORM Sequelize"], 
+            "live_link": "https://github.com/lexborelli/SQL-Library-Manager",
+            "github_link": "https://github.com/lexborelli/SQL-Library-Manager", 
+            "images_url": ["/static/images/sql/sqlsmall.png", "/static/images/sql/sqllarge.png"]
         }
     ]
 }
