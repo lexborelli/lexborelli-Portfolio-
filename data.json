@@ -77,7 +77,7 @@
             "technologies":["Express", "Node.js", "REST", "Sequelize"],
             "live_link": "https://github.com/lexborelli/REST-API", 
             "github_link": "https://github.com/lexborelli/REST-API", 
-            "images_url":["static/images/restapi/restapi.png", "/static/images/restapi/restapibig.png"]
+            "images_url":["static/images/restapi/restapismall.png", "/static/images/restapi/restapibig.png"]
         }
     ]
 }
