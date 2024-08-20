@@ -70,6 +70,14 @@
             "live_link": "https://github.com/lexborelli/SQL-Library-Manager",
             "github_link": "https://github.com/lexborelli/SQL-Library-Manager", 
             "images_url": ["/static/images/sql/sqlsmall.png", "/static/images/sql/sqllarge.png"]
+        }, {
+            "id": 9,
+            "project_name": "Rest API", 
+            "description": "Created a Rest API application using Express. This API provided a way to administer a protoype for a school application containing information about users and courses.Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses. To make changes to the database, users will be required to log in so the API will also allow users to create a new account or retrieve information on an existing account.",
+            "technologies":["Express", "Node.js", "REST", "Sequelize"],
+            "live_link": "https://github.com/lexborelli/REST-API", 
+            "github_link": "https://github.com/lexborelli/REST-API", 
+            "images_url":["static/images/restapi/restapi.png", "/static/images/restapi/restapibig.png"]
         }
     ]
 }
