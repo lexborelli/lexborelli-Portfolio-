@@ -84,6 +84,7 @@
             "description": "Designed and developed a custom WordPress interactive website for an event designer, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 6 landing pages that incorporate a contact form, image gallery, and a rental service; providing functionality to the user experience. This website was made solely on Wordpress, there isn't a github link.",
             "technologies":["HTML", "CSS", "WordPress"],
             "live_link": "https://flawlessdesignsbygladys.com", 
+            "github_link": "https://flawlessdesignsbygladys.com", 
             "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
         }
     ]
