@@ -1,14 +1,15 @@
 {
     "projects": [
-        {
+        { 
             "id": 1,
-            "project_name": "Flawless Designs By Gladys Website", 
-            "description": "Designed and developed a custom WordPress interactive website for an event designer, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 6 landing pages that incorporate a contact form, image gallery, and a rental service; providing functionality to the user experience. This website was made solely on Wordpress, there isn't a github link.",
+            "project_name": "The Cage Restaurant Website", 
+            "description": "Designed and developed a custom WordPress interactive website for a restaurant, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 4 landing pages that incorporate an about page, menu, and contact form; enhancing the user experience. This website was made solely on Wordpress, there isn't a github link.",
             "technologies":["HTML", "CSS", "WordPress"],
-            "live_link": "https://flawlessdesignsbygladys.com", 
-            "github_link": "https://flawlessdesignsbygladys.com", 
-            "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
-        }, 
+            "live_link": "https://thecagerestaurant.com/", 
+            "github_link": "https://thecagerestaurant.com/", 
+            "images_url": ["/static/images/thecage/thecagesmall.jpg", "/static/images/thecage/thecagebig.png"]
+
+        },
         {
             "id": 2,
             "project_name": "Flawless Designs By Gladys Website", 
