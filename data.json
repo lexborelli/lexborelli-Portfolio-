@@ -87,7 +87,7 @@
             "images_url": ["/static/images/datafiltering/datafilteringsmall.png", "/static/images/datafiltering/datafilteringbig.png"]
 
         }, {
-            "id": 9,
+            "id": 11,
             "project_name": "A Random Quote Generator",
             "description": "Designed an application that displays variety of random famous quotes each time a button is clicked. Basic JavaScript syntax, variables, loops, conditionals, and object literals were used to construct this application.", 
             "technologies": ["HTML", "CSS", "JavaScript"],
@@ -95,6 +95,6 @@
             "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
             "images_url": ["/static/images/randomquotegenerator/randomquotesmall.png", "/static/images/randomquotegenerator/randomquotebig.png"]
             
-        }, 
+        }
     ]
 }
