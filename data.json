@@ -86,6 +86,15 @@
             "live_link": "https://flawlessdesignsbygladys.com", 
             "github_link": "https://flawlessdesignsbygladys.com", 
             "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
+        }, { 
+            "id": 11,
+            "project_name": "The Cage Website", 
+            "description": "Designed and developed a custom WordPress interactive website for a restaurant, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 4 landing pages that incorporate an about page, menu, and contact form; enhancing the user experience. This website was made solely on Wordpress, there isn't a github link.",
+            "technologies":["HTML", "CSS", "WordPress"],
+            "live_link": "https://thecagerestaurant.com/", 
+            "github_link": "https://thecagerestaurant.com/", 
+            "images_url": ["/static/images/thecage/thecagesmall.jpg", "/static/images/thecage/thecagebig.png"]
+
         }
     ]
 }
