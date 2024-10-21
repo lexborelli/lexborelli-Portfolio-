@@ -2,41 +2,38 @@
     "projects": [
         {
             "id": 1,
-            "project_name": "A Random Quote Generator",
-            "description": "Designed an application that displays variety of random famous quotes each time a button is clicked. Basic JavaScript syntax, variables, loops, conditionals, and object literals were used to construct this application.", 
-            "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
-            "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
-            "images_url": ["/static/images/randomquotegenerator/randomquotesmall.png", "/static/images/randomquotegenerator/randomquotebig.png"]
-            
-        },
+            "project_name": "Flawless Designs By Gladys Website", 
+            "description": "Designed and developed a custom WordPress interactive website for an event designer, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 6 landing pages that incorporate a contact form, image gallery, and a rental service; providing functionality to the user experience. This website was made solely on Wordpress, there isn't a github link.",
+            "technologies":["HTML", "CSS", "WordPress"],
+            "live_link": "https://flawlessdesignsbygladys.com", 
+            "github_link": "https://flawlessdesignsbygladys.com", 
+            "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
+        }, 
         {
             "id": 2,
-            "project_name": "Data Pagination and Filtering", 
-            "description": "This application has a data file that contains information for 42 students, including name, email, and picture; each webpage displays nine students. Utilized JavaScript to  display several 'pages' of student data that the user can easily navigate through pages with a technique known as “pagination” to enhance the users usability and view. Additionally, a search bar was created to allow user to look for a specific student by name.",
-            "technologies": ["HTML", "CSS", "JavaScript"], 
-            "live_link": "https://lexborelli.github.io/Data-Pagination-and-Filtering-Project/",
-            "github_link": "https://github.com/lexborelli/Data-Pagination-and-Filtering-Project", 
-            "images_url": ["/static/images/datafiltering/datafilteringsmall.png", "/static/images/datafiltering/datafilteringbig.png"]
-
-        }, {
-            "id": 3, 
-            "project_name": "Interactive Form",
-            "description": "This application used JavaScript to enhance an interactive registration form for a fictional FullStack conference by making it more user-friendly. Implemented conditional behavior, validation on user inputs, and provided error messages for invalid inputs.", 
-            "technologies": ["HTML", "CSS", "JavaScript"], 
-            "live_link": "https://lexborelli.github.io/Interactive-Form/", 
-            "github_link": "https://github.com/lexborelli/Interactive-Form", 
-            "images_url": ["/static/images/interactiveform/interactiveformsmall.png", "/static/images/interactiveform/interactiveformbig.png"]
-
-        }, {
-            "id": 4,
-            "project_name": "OOP Game Show App", 
-            "description": "A browser-based, word guessing game: 'Phrase Hunter' application. Utilized JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player must try to guess the phrase by selecting individual letters from an onscreen keyboard without running out of the 4 lives given at the beginning of the game.", 
-            "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"], 
-            "live_link": "https://lexborelli.github.io/Object-Oriented-Programming-Game-App/",
-            "github_link": "https://github.com/lexborelli/Object-Oriented-Programming-Game-App",
-            "images_url": ["/static/images/oopgameshowapp/oopgameshowsmall.png", "/static/images/oopgameshowapp/oopgameshowbig.png"]
-
+            "project_name": "Flawless Designs By Gladys Website", 
+            "description": "Designed and developed a custom WordPress interactive website for an event designer, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 6 landing pages that incorporate a contact form, image gallery, and a rental service; providing functionality to the user experience. This website was made solely on Wordpress, there isn't a github link.",
+            "technologies":["HTML", "CSS", "WordPress"],
+            "live_link": "https://flawlessdesignsbygladys.com", 
+            "github_link": "https://flawlessdesignsbygladys.com", 
+            "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
+        },
+        {
+            "id": 3,
+            "project_name": "Rest API", 
+            "description": "Created a Rest API application using Express. This API provided a way to administer a protoype for a school application containing information about users and courses.Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses. To make changes to the database, users will be required to log in so the API will also allow users to create a new account or retrieve information on an existing account.There isn't a live demo available for the project due to the project being an REST API system that solely depended on the platform of Postman.",
+            "technologies":["Express", "Node.js", "REST API", "Sequelize"],
+            "live_link": "https://github.com/lexborelli/REST-API", 
+            "github_link": "https://github.com/lexborelli/REST-API", 
+            "images_url": ["/static/images/restapi/restapismall.png", "/static/images/restapi/restapibig.png"]
+        } , {
+            "id": 4, 
+            "project_name": "SQL Library Manager",
+            "description": "This application was created for a fictional local library to help them manage their collection of books. This web application included pages to list, add, update, and delete books. I utilized sequelize-cli to create a book model with corresponding routes and pug files that were converted from html. I added the following settings to title and author properties: allowNull property to false, added sequelize validation, and appropriate error messages to ensure the values cant be empty upon submission. The book model was synced and connected to the database of SQLite. Error handling for a 404 status error and global handling error were implemented with a user-friendly message.There isn't a live demo available for this project due to the project using SQLite and SQL ORM Sequelize.", 
+            "technologies": ["JavaScript", "Node.js", "Express", "Pug", "SQLite", "SQL ORM Sequelize"], 
+            "live_link": "https://github.com/lexborelli/SQL-Library-Manager",
+            "github_link": "https://github.com/lexborelli/SQL-Library-Manager", 
+            "images_url": ["/static/images/sql/sqlsmall.png", "/static/images/sql/sqllarge.png"]
         }, {
             "id": 5,
             "project_name": "Awesome Startup static API Request", 
@@ -63,38 +60,41 @@
             "images_url": ["/static/images/reactgallery/reactgallerysmall.png", "/static/images/reactgallery/reactgallerybig.png"]
 
         }, {
-            "id": 8, 
-            "project_name": "SQL Library Manager",
-            "description": "This application was created for a fictional local library to help them manage their collection of books. This web application included pages to list, add, update, and delete books. I utilized sequelize-cli to create a book model with corresponding routes and pug files that were converted from html. I added the following settings to title and author properties: allowNull property to false, added sequelize validation, and appropriate error messages to ensure the values cant be empty upon submission. The book model was synced and connected to the database of SQLite. Error handling for a 404 status error and global handling error were implemented with a user-friendly message.There isn't a live demo available for this project due to the project using SQLite and SQL ORM Sequelize.", 
-            "technologies": ["JavaScript", "Node.js", "Express", "Pug", "SQLite", "SQL ORM Sequelize"], 
-            "live_link": "https://github.com/lexborelli/SQL-Library-Manager",
-            "github_link": "https://github.com/lexborelli/SQL-Library-Manager", 
-            "images_url": ["/static/images/sql/sqlsmall.png", "/static/images/sql/sqllarge.png"]
+            "id": 8,
+            "project_name": "OOP Game Show App", 
+            "description": "A browser-based, word guessing game: 'Phrase Hunter' application. Utilized JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player must try to guess the phrase by selecting individual letters from an onscreen keyboard without running out of the 4 lives given at the beginning of the game.", 
+            "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"], 
+            "live_link": "https://lexborelli.github.io/Object-Oriented-Programming-Game-App/",
+            "github_link": "https://github.com/lexborelli/Object-Oriented-Programming-Game-App",
+            "images_url": ["/static/images/oopgameshowapp/oopgameshowsmall.png", "/static/images/oopgameshowapp/oopgameshowbig.png"]
+
+        },  {
+            "id": 9, 
+            "project_name": "Interactive Form",
+            "description": "This application used JavaScript to enhance an interactive registration form for a fictional FullStack conference by making it more user-friendly. Implemented conditional behavior, validation on user inputs, and provided error messages for invalid inputs.", 
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://lexborelli.github.io/Interactive-Form/", 
+            "github_link": "https://github.com/lexborelli/Interactive-Form", 
+            "images_url": ["/static/images/interactiveform/interactiveformsmall.png", "/static/images/interactiveform/interactiveformbig.png"]
+
+        },  {
+            "id": 10,
+            "project_name": "Data Pagination and Filtering", 
+            "description": "This application has a data file that contains information for 42 students, including name, email, and picture; each webpage displays nine students. Utilized JavaScript to  display several 'pages' of student data that the user can easily navigate through pages with a technique known as “pagination” to enhance the users usability and view. Additionally, a search bar was created to allow user to look for a specific student by name.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://lexborelli.github.io/Data-Pagination-and-Filtering-Project/",
+            "github_link": "https://github.com/lexborelli/Data-Pagination-and-Filtering-Project", 
+            "images_url": ["/static/images/datafiltering/datafilteringsmall.png", "/static/images/datafiltering/datafilteringbig.png"]
+
         }, {
             "id": 9,
-            "project_name": "Rest API", 
-            "description": "Created a Rest API application using Express. This API provided a way to administer a protoype for a school application containing information about users and courses.Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses. To make changes to the database, users will be required to log in so the API will also allow users to create a new account or retrieve information on an existing account.There isn't a live demo available for the project due to the project being an REST API system that solely depended on the platform of Postman.",
-            "technologies":["Express", "Node.js", "REST API", "Sequelize"],
-            "live_link": "https://github.com/lexborelli/REST-API", 
-            "github_link": "https://github.com/lexborelli/REST-API", 
-            "images_url": ["/static/images/restapi/restapismall.png", "/static/images/restapi/restapibig.png"]
-        } , {
-            "id": 10,
-            "project_name": "Flawless Designs By Gladys Website", 
-            "description": "Designed and developed a custom WordPress interactive website for an event designer, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 6 landing pages that incorporate a contact form, image gallery, and a rental service; providing functionality to the user experience. This website was made solely on Wordpress, there isn't a github link.",
-            "technologies":["HTML", "CSS", "WordPress"],
-            "live_link": "https://flawlessdesignsbygladys.com", 
-            "github_link": "https://flawlessdesignsbygladys.com", 
-            "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
-        }, { 
-            "id": 11,
-            "project_name": "The Cage Website", 
-            "description": "Designed and developed a custom WordPress interactive website for a restaurant, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 4 landing pages that incorporate an about page, menu, and contact form; enhancing the user experience. This website was made solely on Wordpress, there isn't a github link.",
-            "technologies":["HTML", "CSS", "WordPress"],
-            "live_link": "https://thecagerestaurant.com/", 
-            "github_link": "https://thecagerestaurant.com/", 
-            "images_url": ["/static/images/thecage/thecagesmall.jpg", "/static/images/thecage/thecagebig.png"]
-
-        }
+            "project_name": "A Random Quote Generator",
+            "description": "Designed an application that displays variety of random famous quotes each time a button is clicked. Basic JavaScript syntax, variables, loops, conditionals, and object literals were used to construct this application.", 
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://lexborelli.github.io/A-Random-Quote-Generator/",
+            "github_link": "https://github.com/lexborelli/A-Random-Quote-Generator",
+            "images_url": ["/static/images/randomquotegenerator/randomquotesmall.png", "/static/images/randomquotegenerator/randomquotebig.png"]
+            
+        }, 
     ]
 }
