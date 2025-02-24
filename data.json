@@ -3,7 +3,7 @@
         { 
             "id": 1,
             "project_name": "Full Stack App with React and a REST API", 
-            "description": "Built the client-side for my existing school database that I previously created 'Rest API'. The full stack application provides a way for users to administer a fictional school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating, and deleting courses in the database. Added CORS support to the REST API to enable secure cross-origin communication between the client and server.",
+            "description": "Built the front-end for my fictional school database project, which I had already recently created with my 'REST API' project. I added CORS support to the API to make sure the client and server can communicate securely across different domains. The full stack app lets users manage a fictional school database with course info. Similar as the process of enrolling or signing up for classes. The user can see a list of courses, check out details for specific ones, and even add, update, or remove courses they have created.",
             "technologies":["JavaScript", "JSX", "React", "React Context API", "React Router", "Axios", "Vite", "Node.js", "Express", "CORS", "SQLite"],
             "live_link": "https://secure-charisma-production.up.railway.app/", 
             "github_link": "https://github.com/lexborelli/Full-Stack-Application", 
