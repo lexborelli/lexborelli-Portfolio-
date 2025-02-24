@@ -7,7 +7,7 @@
             "technologies":["JavaScript", "JSX", "React", "React Context API", "React Router", "Axios", "Vite", "Node.js", "Express", "CORS", "SQLite"],
             "live_link": "https://secure-charisma-production.up.railway.app/", 
             "github_link": "https://github.com/lexborelli/Full-Stack-Application", 
-            "images_url": ["/static/images/fullstack/FullStacksmall.jpg", "/static/images/fullstack/FullStackbig.png"]
+            "images_url": ["/static/images/fullstack/FullStacksmall.png", "/static/images/fullstack/FullStackbig.png"]
         },
         { 
             "id": 2,
