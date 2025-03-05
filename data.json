@@ -2,6 +2,15 @@
     "projects": [
         { 
             "id": 1,
+            "project_name": "Community Asylum Seekers Project Website", 
+            "description": "I led a website optimization and redesign for the Community Asylum Seekers Project (CASP), implementing custom CSS overrides, UI enhancements, and performance optimizations to enhance functionality and responsiveness across desktop, tablet, and mobile. To improve accessibility for the diverse communities CASP serves, I developed a multilingual contact form in English, Spanish, French, and Russian, enabling users to easily input key details such as preferred language, communication needs, and legal information. Additionally, I optimized form validation, enhanced user input handling with state-based search functionality, and ensured structured data collection for seamless submissions. I also restructured key site components, including the Board of Directors, Staff, and News & Events sections, improving navigation, content organization, and accessibility. These enhancements significantly elevated user engagement, accessibility, and overall site performance.",
+            "technologies":["HTML", "CSS", "WordPress", "SiteOrigin Plugin", "Smart Slider Plugin", "Wordfence Plugin"],
+            "live_link": "https://caspvt.org/", 
+            "github_link": "https://caspvt.org/", 
+            "images_url": ["/static/images/casp/caspsmall.png", "/static/images/casp/caspbig.png"]
+        },
+        { 
+            "id": 2,
             "project_name": "Full Stack App with React and a REST API", 
             "description": "Built the front-end for my fictional school database project, which I had already recently created with my 'REST API' project. I added CORS support to the API to make sure the client and server can communicate securely across different domains. The full stack app lets users manage a fictional school database with course info. Similar as the process of enrolling or signing up for classes. The user can see a list of courses, check out details for specific ones, and even add, update, or remove courses they have created.",
             "technologies":["JavaScript", "JSX", "React", "React Context API", "React Router", "Axios", "Vite", "Node.js", "Express", "CORS", "SQLite"],
@@ -10,7 +19,7 @@
             "images_url": ["/static/images/fullstack/FullStacksmall.png", "/static/images/fullstack/FullStackbig.png"]
         },
         { 
-            "id": 2,
+            "id": 3,
             "project_name": "The Cage Restaurant Website", 
             "description": "Designed and developed a custom WordPress interactive website for a restaurant, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 4 landing pages that incorporate an about page, menu, and contact form; enhancing the user experience. This website was made solely on Wordpress, there isn't a github link.",
             "technologies":["HTML", "CSS", "WordPress"],
@@ -19,7 +28,7 @@
             "images_url": ["/static/images/thecage/thecagesmall.jpg", "/static/images/thecage/thecagebig.png"]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "Flawless Designs By Gladys Website", 
             "description": "Designed and developed a custom WordPress interactive website for an event designer, utilizing a variety of front end programming languages, including HTML, CSS, and plugins to create 6 landing pages that incorporate a contact form, image gallery, and a rental service; providing functionality to the user experience. This website was made solely on Wordpress, there isn't a github link.",
             "technologies":["HTML", "CSS", "WordPress"],
@@ -28,7 +37,7 @@
             "images_url": ["/static/images/flawlessdesigns/flawlessdesignssmall.jpg", "/static/images/flawlessdesigns/flawlessdesignsbig.png"]
         },
         {
-            "id": 4,
+            "id": 5,
             "project_name": "Rest API", 
             "description": "Created a Rest API application using Express. This API provided a way to administer a protoype for a school application containing information about users and courses.Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses. To make changes to the database, users will be required to log in so the API will also allow users to create a new account or retrieve information on an existing account.There isn't a live demo available for the project due to the project being an REST API system that solely depended on the platform of Postman.",
             "technologies":["Express", "Node.js", "REST API", "Sequelize"],
@@ -36,7 +45,7 @@
             "github_link": "https://github.com/lexborelli/REST-API", 
             "images_url": ["/static/images/restapi/restapismall.png", "/static/images/restapi/restapibig.png"]
         } , {
-            "id": 5, 
+            "id": 6, 
             "project_name": "SQL Library Manager",
             "description": "This application was created for a fictional local library to help them manage their collection of books. This web application included pages to list, add, update, and delete books. I utilized sequelize-cli to create a book model with corresponding routes and pug files that were converted from html. I added the following settings to title and author properties: allowNull property to false, added sequelize validation, and appropriate error messages to ensure the values cant be empty upon submission. The book model was synced and connected to the database of SQLite. Error handling for a 404 status error and global handling error were implemented with a user-friendly message.There isn't a live demo available for this project due to the project using SQLite and SQL ORM Sequelize.", 
             "technologies": ["JavaScript", "Node.js", "Express", "Pug", "SQLite", "SQL ORM Sequelize"], 
@@ -44,7 +53,7 @@
             "github_link": "https://github.com/lexborelli/SQL-Library-Manager", 
             "images_url": ["/static/images/sql/sqlsmall.png", "/static/images/sql/sqllarge.png"]
         }, {
-            "id": 6,
+            "id": 7,
             "project_name": "Awesome Startup static API Request", 
             "description": "This application uses JavaScript, to build a fictional employee directory by communicating with a third-party API (Application Programming Interface). The Random User Generator API (https://randomuser.me/) was used to grab information for 12 random “employees,” to build a prototype.",
             "technologies": ["HTML", "CSS", "JavaScript", "JSON", "API"], 
@@ -52,7 +61,7 @@
             "github_link": "https://github.com/lexborelli/Awesome-Startup-Public-API-Request", 
             "images_url": ["/static/images/requestapi/requestapismall.png", "/static/images/requestapi/requestapibig.png"]
         }, {
-            "id": 7, 
+            "id": 8, 
             "project_name": "Python Spreadsheet Analysis",
             "description": "This application utilized Python and Pandas to do a basic data analysis on a spreadsheet of all the sales in 2018 with a fellow learner. This analysis collected all of the sales from each month into a single list, outputed the total sales across all months, monthly changes as a percentage, the months with the highest and lowest in sales, and the average of all sales.",
             "technologies": ["Python", "Pandas", "Replit"],
@@ -60,7 +69,7 @@
             "github_link": "https://github.com/lexborelli/spreadsheet-analysis",
             "images_url": ["/static/images/pythonspreadsheet/pythonspreadsheetanalysissmall.png", "/static/images/pythonspreadsheet/pythonspreadsheetanalysisbig.png"]
         }, {
-            "id": 8, 
+            "id": 9, 
             "project_name": "React Gallery App",
             "description": "This Application, uses the in-demand React library in the style of a modern single-page application to keep it fast, modular, and in sync with current web development trends to create an image gallery. I used JSX to write the markup-like syntax directly in my JavaScript files and managed the state in a container component that passes data down to the reusable stateless components. I implemented a browser navigation works for the search route, a 404 Error, a loading indicator, and a user friendly message to tell users if no matches were found.", 
             "technologies": ["React","JavaScript", "JSX", "Vite", "Axios", "Fetch API", "CSS"], 
@@ -69,7 +78,7 @@
             "images_url": ["/static/images/reactgallery/reactgallerysmall.png", "/static/images/reactgallery/reactgallerybig.png"]
 
         }, {
-            "id": 9,
+            "id": 10,
             "project_name": "OOP Game Show App", 
             "description": "A browser-based, word guessing game: 'Phrase Hunter' application. Utilized JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player must try to guess the phrase by selecting individual letters from an onscreen keyboard without running out of the 4 lives given at the beginning of the game.", 
             "technologies": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming"], 
@@ -78,7 +87,7 @@
             "images_url": ["/static/images/oopgameshowapp/oopgameshowsmall.png", "/static/images/oopgameshowapp/oopgameshowbig.png"]
 
         },  {
-            "id": 10, 
+            "id": 11, 
             "project_name": "Interactive Form",
             "description": "This application used JavaScript to enhance an interactive registration form for a fictional FullStack conference by making it more user-friendly. Implemented conditional behavior, validation on user inputs, and provided error messages for invalid inputs.", 
             "technologies": ["HTML", "CSS", "JavaScript"], 
@@ -87,7 +96,7 @@
             "images_url": ["/static/images/interactiveform/interactiveformsmall.png", "/static/images/interactiveform/interactiveformbig.png"]
 
         },  {
-            "id": 11,
+            "id": 12,
             "project_name": "Data Pagination and Filtering", 
             "description": "This application has a data file that contains information for 42 students, including name, email, and picture; each webpage displays nine students. Utilized JavaScript to  display several 'pages' of student data that the user can easily navigate through pages with a technique known as “pagination” to enhance the users usability and view. Additionally, a search bar was created to allow user to look for a specific student by name.",
             "technologies": ["HTML", "CSS", "JavaScript"], 
@@ -96,7 +105,7 @@
             "images_url": ["/static/images/datafiltering/datafilteringsmall.png", "/static/images/datafiltering/datafilteringbig.png"]
 
         }, {
-            "id": 12,
+            "id": 13,
             "project_name": "A Random Quote Generator",
             "description": "Designed an application that displays variety of random famous quotes each time a button is clicked. Basic JavaScript syntax, variables, loops, conditionals, and object literals were used to construct this application.", 
             "technologies": ["HTML", "CSS", "JavaScript"],
